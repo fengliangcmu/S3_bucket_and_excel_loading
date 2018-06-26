@@ -3,9 +3,9 @@
 #### 1. how to load excel file and insert into DB via odata service; 
 #### 2. how to upload,delete,download files from Amazon S3 bucket.
 
->1. upload excel file and save into db via odata service
->URL : localhost:8080/rest/hackathonService/uploadExcelData
->post form-data in request body:  uploadFile(file) & odataUrl
+>1. upload excel file and save into db via odata service   
+URL : localhost:8080/rest/hackathonService/uploadExcelData   
+post form-data in request body:  uploadFile(file) & odataUrl
   
 >2. download any file from S3 bucket
 >URL : localhost:8080/rest/hackathonService/downloadFile
