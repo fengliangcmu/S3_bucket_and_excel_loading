@@ -18,3 +18,5 @@ post form-data in request body:  uploadFile(file type), bucket, s3AccessKeyId, s
 >4. delete any file from S3 bucket   
 URL : localhost:8080/rest/hackathonService/deleteFile   
 post form-data in request body:  fileName, bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
+
+#### 3. push to cloudfoundry using manifest.yml after running 'maven install'
