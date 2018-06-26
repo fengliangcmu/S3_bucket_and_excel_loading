@@ -1,0 +1,8 @@
+applications:
+  - name: hackathon_java
+    path: target/hackathon_java.war
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+services:
+  - hackathon-s3
+env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 1.7.0_+ } }'
