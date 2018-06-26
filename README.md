@@ -7,14 +7,14 @@
 URL : localhost:8080/rest/hackathonService/uploadExcelData   
 post form-data in request body:  uploadFile(file) & odataUrl
   
->2. download any file from S3 bucket
->URL : localhost:8080/rest/hackathonService/downloadFile
->post form-data in request body:  fileName, bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
+>2. download any file from S3 bucket   
+URL : localhost:8080/rest/hackathonService/downloadFile   
+post form-data in request body:  fileName, bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
   
->3. upload any file from S3 bucket
->URL : localhost:8080/rest/hackathonService/uploadFile
->post form-data in request body:  uploadFile(file type), bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
+>3. upload any file from S3 bucket   
+URL : localhost:8080/rest/hackathonService/uploadFile   
+post form-data in request body:  uploadFile(file type), bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
   
->4. delete any file from S3 bucket
->URL : localhost:8080/rest/hackathonService/deleteFile
->post form-data in request body:  fileName, bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
+>4. delete any file from S3 bucket   
+URL : localhost:8080/rest/hackathonService/deleteFile   
+post form-data in request body:  fileName, bucket, s3AccessKeyId, s3SecretAccessKey, s3Region
